@@ -47,7 +47,7 @@
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
-<h1>testing local</h1>
+
 	<?php wp_footer(); ?>
 </body>
 </html>
