@@ -30,7 +30,12 @@ get_header(); ?>
 		</div><!-- #content -->
 			
 	</div><!-- #primary -->
-
+<div class="clear"></div>
+<?php if ( is_active_sidebar( 'sidebar-6' ) ) : ?>
+	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+		<?php dynamic_sidebar( 'sidebar-6' ); ?>
+	</div><!-- #primary-sidebar -->
+<?php endif; ?>
 </div><!-- #main-content -->
 
 <?php

@@ -214,6 +214,16 @@ function twentyfourteen_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+	
+		register_sidebar( array(
+		'name'          => __( 'Box Widget Area', 'twentyfourteen' ),
+		'id'            => 'sidebar-6',
+		'description'   => __( 'Appears in the Slider section of the site.', 'twentyfourteen' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
 
 add_action( 'widgets_init', 'twentyfourteen_widgets_init' );
 
@@ -224,7 +234,7 @@ add_action( 'widgets_init', 'twentyfourteen_widgets_init' );
  *
  * @return string
  */
-function twentyfourteen_font_url() {
+   function twentyfourteen_font_url() {
 	$font_url = '';
 	/*
 	 * Translators: If there are characters in your language that are not supported

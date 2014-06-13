@@ -4235,3 +4235,5 @@ slider-right-widget{
 	float:left;
 	width: 30%;
 }
+
+.clear{ background-color:red; height:7px; width:100%; clear:both;}
