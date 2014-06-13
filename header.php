@@ -61,10 +61,15 @@
 			</div>
 		</div>
 
-			<h1 class="dept-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</h1>
-
+			<div class="dept-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></br>
+			
+	<?php
+		$description = get_bloginfo( 'description', 'display' );
+		if ( ! empty ( $description ) ) :
+	?>
+	<?php echo esc_html( $description ); ?>
+	<?php endif; ?></div>
 			<img class="demoimg" src="<?php echo get_template_directory_uri();?>/images/demo-pic.png" />
 		</div>
 	</header><!-- #masthead -->
@@ -76,3 +81,4 @@
 			</nav>
 	</div>			
 	<div id="main" class="site-main">
+		
