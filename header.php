@@ -61,20 +61,25 @@
 			</div>
 		</div>
 
-			<div class="dept-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></br>
-			
+	<div id="dept-header">
+	<div class="dept-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+	</div>
+
+	<div class="dept-des">
 	<?php
 		$description = get_bloginfo( 'description', 'display' );
 		if ( ! empty ( $description ) ) :
 	?>
 	<?php echo esc_html( $description ); ?>
-	<?php endif; ?></div>
+	<?php endif; ?>
+	</div>
+	</div>
 			<img class="demoimg" src="<?php echo get_template_directory_uri();?>/images/demo-pic.png" />
 		</div>
 	</header><!-- #masthead -->
 	
-	<div style="float: left">	<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+	<div style="float: left;padding-left:6%">	<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) );  ?>

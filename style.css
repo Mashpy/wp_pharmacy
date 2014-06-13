@@ -841,25 +841,28 @@ span + .edit-link:before,
 
 #site-header {
 	position: relative;
-	z-index: 3;
 }
 
 .site-header {
-	background-color: yellow;
+	background-color: white;
 	max-width: 1260px;
 	position: relative;
 	width: 100%;
-	z-index: 4;
+	border-bottom:1px solid yellow;
 }
 
 .header-main {
-	min-height: 48px;
+	min-height: 50px;
 	padding: 0 10px;
+	background: none repeat scroll 0 0 #000000;
+    height: 50px;
+    margin: auto;
+    position: relative;
 }
 
 .site-title {
 	float: left;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 700;
 	line-height: 48px;
 	margin: 0;
@@ -867,13 +870,13 @@ span + .edit-link:before,
 /* Rone you can change the title from here */
 .site-title a,
 .site-title a:hover {
-	color: black;
+	color: #CCCCCC;
 }
 
 /* Search in the header */
 
 .search-toggle {
-	background-color: #24890d;
+	background-color: #FFC904;
 	cursor: pointer;
 	float: right;
 	height: 48px;
@@ -921,6 +924,7 @@ span + .edit-link:before,
 	font-size: 16px;
 	padding: 2px 2px 3px 6px;
 	width: 100%;
+	color:white;
 }
 
 
@@ -943,7 +947,7 @@ span + .edit-link:before,
 }
 /* Rone from here u can change the navigation menu color */
 .site-navigation a {
-	color: black;
+	color: #CCCCCC;
 	display: block;
 	text-transform: uppercase;
 }
@@ -3389,6 +3393,7 @@ a.post-thumbnail:hover {
 		margin: 0 1px 0 -12px;
 		padding: 0;
 		text-transform: uppercase;
+		background: none repeat scroll 0 0 #222222;
 	}
 
 	.primary-navigation .menu-toggle {
@@ -3422,7 +3427,7 @@ a.post-thumbnail:hover {
 	}
 
 	.primary-navigation ul ul {
-		background-color: #24890d;
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
 		float: left;
 		margin: 0;
 		position: absolute;
@@ -3451,13 +3456,13 @@ a.post-thumbnail:hover {
 
 	.primary-navigation li:hover > a,
 	.primary-navigation li.focus > a {
-		background-color: #24890d;
-		color: black;
+		background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);;
+		color: #FFFFFF;
 	}
 
 	.primary-navigation ul ul a:hover,
 	.primary-navigation ul ul li.focus > a {
-		background-color: #41a62a;
+		background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
 	}
 
 	.primary-navigation ul li:hover > ul,
@@ -4228,18 +4233,24 @@ a.post-thumbnail:hover {
 .demoimg{
 	float:right
 	}
-	
+#dept-header{
+	float:left;
+	width:auto;
+	padding-left: 6%
+}	
 .dept-title{
-	padding-left:20px;
-	float: left;
+	font-size:22px;
 	}
 	
+.dept-des{
+	font-size:18px;
+}	
 .slider-widget{
 	float:left;
 	width:50%;
 	}
 
-slider-right-widget{
+.slider-right-widget{
 	float:left;
 	width: 30%;
 }
