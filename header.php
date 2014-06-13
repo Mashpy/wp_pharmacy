@@ -41,7 +41,7 @@
 				<img class="header-image" src="<?php header_image(); ?>" width="20px" height="20px" alt="">
 				</a>
 				<?php endif; ?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Noakhali Science and Technology University</a>
 			</h1>
 
 			<div class="search-toggle">
@@ -60,6 +60,19 @@
 				<?php get_search_form(); ?>
 			</div>
 		</div>
-	</header><!-- #masthead -->
 
+			<h1 class="dept-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			</h1>
+
+			<img class="demoimg" src="<?php echo get_template_directory_uri();?>/images/demo-pic.png" />
+		</div>
+	</header><!-- #masthead -->
+	
+	<div style="float: left">	<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
+				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
+				<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) );  ?>
+			</nav>
+	</div>			
 	<div id="main" class="site-main">
