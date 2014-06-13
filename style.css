@@ -4227,3 +4227,11 @@ a.post-thumbnail:hover {
 
 .demoimg{float:right}
 .dept-title{padding-left:20px; float: left;}
+.slider-widget{
+	float:left;
+	width:50%;
+	}
+slider-right-widget{
+	float:left;
+	width: 30%;
+}
