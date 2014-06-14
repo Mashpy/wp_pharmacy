@@ -13,7 +13,7 @@
  * @subpackage Twenty_Fourteen
  * @since Twenty Fourteen 1.0
  */
-
+/*tested by rony */
 get_header(); ?>
 
 <div id="main-content" class="main-content">
