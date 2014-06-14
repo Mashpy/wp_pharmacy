@@ -1116,7 +1116,7 @@ a.post-thumbnail:hover {
 }
 
 .site-content .entry-header {
-	background-color: red;
+	background-color: white;
 	padding: 0 10px 12px;
 }
 
@@ -1250,7 +1250,7 @@ a.post-thumbnail:hover {
 .site-content .entry-content,
 .site-content .entry-summary,
 .page-content {
-	background-color: black;
+	background-color: white;
 	padding: 12px 10px 0;
 }
 
@@ -4253,6 +4253,7 @@ a.post-thumbnail:hover {
 .slider-right-widget{
 	float:left;
 	width: 30%;
+	padding-left: 2%;
 }
 
 .clear{ 
