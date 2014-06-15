@@ -67,7 +67,7 @@ function twentyfourteen_setup() {
 	 */
 
 	// This theme styles the visual editor to resemble the theme style.
-	add_editor_style( array( 'css/editor-style.css', twentyfourteen_font_url() ) );
+
 
 	// Add RSS feed links to <head> for posts and comments.
 	add_theme_support( 'automatic-feed-links' );
@@ -538,6 +538,6 @@ function wpbootstrap_scripts_with_jquery()
 	wp_register_script( 'custom-script', get_template_directory_uri() . '/bootstrap/js/bootstrap.js', array( 'jquery' ) );
 	// For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'custom-script' );
-  wp_enqueue_style('kadence_bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.css', array());
+    wp_enqueue_style('kadence_bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.css', array());
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
