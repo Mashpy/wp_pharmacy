@@ -9,7 +9,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-		</div><!-- #main -->
+
 
 
 							<a href="http://www.nus.edu.sg/terms.php" >Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php" >Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php" >Non-discrimination</a>
@@ -26,6 +26,7 @@
 							by Department of Pharmacy
 
 	<?php wp_footer();?>
+</div>
 	</body>
 
 </html>
