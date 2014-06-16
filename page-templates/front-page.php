@@ -9,15 +9,15 @@
 
 get_header(); ?>
 
-<div style="margin-bottom: 40px" class="row marketing">
-<div class="col-lg-7">
+<div style="margin-bottom: 60px" class="row marketing">
+<div class="col-lg-9">
 <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
 
 		<?php dynamic_sidebar( 'sidebar-4' ); ?>
 
 <?php endif; ?>
 </div>
-<div class="col-lg-5">
+<div class="col-lg-3">
 <?php if ( is_active_sidebar( 'sidebar-5' ) ) : ?>
 
 		<?php dynamic_sidebar( 'sidebar-5' ); ?>
