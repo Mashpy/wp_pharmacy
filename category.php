@@ -11,13 +11,17 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
 
+
+<div style="margin-bottom: 60px" class="row marketing">
+<div class="col-lg-3">
+
+</div>
+<div class="col-lg-9">
 			<?php if ( have_posts() ) : ?>
 
-			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?></h1>
+	
+		<?php printf( __( 'Category Archives: %s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?>
 
 				<?php
 					// Show an optional term description.
@@ -26,7 +30,7 @@ get_header(); ?>
 						printf( '<div class="taxonomy-description">%s</div>', $term_description );
 					endif;
 				?>
-			</header><!-- .archive-header -->
+			
 
 			<?php
 					// Start the Loop.
@@ -49,8 +53,8 @@ get_header(); ?>
 
 				endif;
 			?>
-		</div><!-- #content -->
-	</section><!-- #primary -->
+</div>
+</div>
 
 <?php
 get_sidebar( 'content' );

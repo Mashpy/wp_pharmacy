@@ -9,8 +9,15 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+
+
+
+<div style="margin-bottom: 60px" class="row marketing">
+<div class="col-lg-3">
+
+
+</div>
+<div class="col-lg-9">
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
@@ -28,10 +35,9 @@ get_header(); ?>
 					}
 				endwhile;
 			?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+</div>
+</div>
+
 
 <?php
-get_sidebar( 'content' );
-get_sidebar();
 get_footer();
