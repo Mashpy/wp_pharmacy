@@ -16,7 +16,7 @@
 
 <body <?php body_class(); ?>>
 <div class="container" >
-	
+<ol class="breadcrumb">	
 				<?php if ( get_header_image() ) : ?>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 <!--Rone fix the size and padding of header image-->					
@@ -60,28 +60,33 @@
     </div>
 
 </nav>
-
-
-
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-
+<div class="clearfix">
+	
+  <div id="main">
+    <div>
+      <div class="pull-right">
+     	<img src="<?php echo get_template_directory_uri();?>/images/demo-pic.png"  />
+      </div>
+    </div>
+    <div style="padding-left: 16px; margin-top:-12px">
+  <div style="font-size:20px"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
+<div style="margin-bottom: 10px">
 	<?php
 		$description = get_bloginfo( 'description', 'display' );
 		if ( ! empty ( $description ) ) :
 	?>
 	<?php echo esc_html( $description ); ?>
 	<?php endif; ?>
-		<img class="demoimg" src="<?php echo get_template_directory_uri();?>/images/demo-pic.png" />
+	</div>
+</div>
+</div>
+	
 
-<div class="container" >
-			<ol class="breadcrumb">
-				<?php if ( get_header_image() ) : ?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-<!--Rone fix the size and padding of header image-->					
-				<img class="header-image" src="<?php header_image(); ?>" width="20px" height="20px" alt="">
-				</a>
-				<?php endif; ?>
-				
+
+
+
+
+		
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -110,5 +115,4 @@
         ?>
     </div>
 </nav>
-
 

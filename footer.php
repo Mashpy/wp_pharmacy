@@ -26,6 +26,7 @@
 							by Department of Pharmacy
 
 	<?php wp_footer();?>
+	</ol>
 </div>
 	</body>
 
