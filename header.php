@@ -116,3 +116,4 @@
     </div>
 </nav>
 
+<div class="clearfix">

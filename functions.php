@@ -216,15 +216,6 @@ function twentyfourteen_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 	
-		register_sidebar( array(
-		'name'          => __( 'Box Widget Area', 'twentyfourteen' ),
-		'id'            => 'sidebar-6',
-		'description'   => __( 'Appears in the Slider section of the site.', 'twentyfourteen' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
 
 add_action( 'widgets_init', 'twentyfourteen_widgets_init' );
 
@@ -540,6 +531,6 @@ function wpbootstrap_scripts_with_jquery()
 	wp_register_script( 'custom-script', get_template_directory_uri() . '/bootstrap/js/bootstrap.js', array( 'jquery' ) );
 	// For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'custom-script' );
-    wp_enqueue_style('kadence_bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.css', array());
+    wp_enqueue_style('kadence_bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array());
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
