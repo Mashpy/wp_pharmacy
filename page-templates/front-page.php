@@ -28,16 +28,16 @@ get_header(); ?>
 
 
 <div class="row">
-  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/banners01.jpg" border="0" /></a></div>
+  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img class="boximg" src="<?php echo get_template_directory_uri();?>/images/Medicinal-Plant-Garden.jpg" border="0" /></a></div>
   <div class="clearfix visible-xs"></div>
-  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/banners02.jpg" border="0" /></a></div>
+  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img class="boximg" src="<?php echo get_template_directory_uri();?>/images/Lab-Facilities.jpg" border="0" /></a></div>
 
   <!-- Add the extra clearfix for only the required viewport -->
   <div class="clearfix visible-xs"></div>
 
-  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/banners03.jpg" border="0" /></a></div>
+  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img class="boximg" src="<?php echo get_template_directory_uri();?>/images/Pharmacy_Club.jpg" border="0" /></a></div>
  <div class="clearfix visible-xs"></div>
-  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/banners04.jpg" border="0" /></a></div>
+  <div class="col-xs-6 col-sm-3"><a href="#" target="_blank"><img style="padding-right:5px" class="boximg" src="<?php echo get_template_directory_uri();?>/images/E-Gallery.jpg" border="0" /></a></div>
 </div>
 
 

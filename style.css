@@ -6,10 +6,23 @@ Author URI: http://mashpy.me
 */
 
 body {
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
 }
 
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+
+.boximg{
+	width:228px;
+	height: 146px;
+
 }

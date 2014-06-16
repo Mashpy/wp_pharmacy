@@ -12,6 +12,7 @@
 <head>
 <link rel='stylesheet' href="<?php bloginfo('stylesheet_url')?>" type="text/css" />
 	<?php wp_head(); ?>
+	<title><?php bloginfo( 'name' ); ?> | Noakhali Science And Technology University</title>
 </head>
 
 <body <?php body_class(); ?>>
@@ -65,7 +66,7 @@
   <div id="main">
     <div>
       <div class="pull-right">
-     	<img src="<?php echo get_template_directory_uri();?>/images/demo-pic.png"  />
+     	<img style="width:72px;height:53px" src="<?php echo get_template_directory_uri();?>/images/demo-pic.jpg"  />
       </div>
     </div>
     <div style="padding-left: 16px; margin-top:-12px">
