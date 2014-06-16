@@ -17,7 +17,7 @@
   <div id="main">
     <div>
       <div class="pull-right">
-   						<a href="http://www.nus.edu.sg/sitemap.php" >Site Map</a> | <a href="http://www.nus.edu.sg/contactus.php" >Feedback</a> |<a href="http://www.nus.edu.sg/campusmap/" >Campus Map</a>
+   						<a href="#" >Site Map</a> | <a href="#" >Feedback</a> |<a href="#" >Campus Map</a>
 </br>
 							Last modified on <!-- #BeginDate format:Sw1 -->
 							30 May, 2014<!-- #EndDate -->
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div>
-  <div>			<a href="http://www.nus.edu.sg/terms.php" >Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php" >Privacy</a>
+  <div>			<a href="#" >Terms of Use</a> | <a href="#" >Privacy</a>
 							<!-- | <a href="#">Using this site</a>-->
 						
 					</br>

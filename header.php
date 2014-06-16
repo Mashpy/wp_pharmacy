@@ -28,7 +28,7 @@
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+    <div style="padding-top:13px" class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -36,7 +36,7 @@
         <span class="icon-bar"></span>
       </button>
       
-<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Noakhali Science and Technology University</a>
+<a  href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img style="width:25px;height:25px;padding-right:4px" src="<?php echo get_template_directory_uri();?>/images/nstu.png"  />Noakhali Science and Technology University</a>
     </div>
  <form class="navbar-form navbar-right" role="search" action="<?php esc_url( site_url() ) ?>" method="get">
     <div class="form-group">
