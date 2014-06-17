@@ -66,7 +66,11 @@
   <div id="main">
     <div>
       <div class="pull-right">
-     	<img style="width:72px;height:53px" src="<?php echo get_template_directory_uri();?>/images/demo-pic.jpg"  />
+    <a class="sb large circle facebook" style="margin-left:5px" target="_blank" href="#">Facebook</a>
+<a class="sb large circle twitter" target="_blank" href="#">Twitter</a>
+<a class="sb large circle linkedin" target="_blank" href="#">LinkedIn</a>
+<a class="sb large circle vimeo" target="_blank" href="#">RSS</a>
+<a class="sb large circle rss" target="_blank" href="#">RSS</a>
       </div>
     </div>
     <div style="padding-left: 16px; margin-top:-12px">

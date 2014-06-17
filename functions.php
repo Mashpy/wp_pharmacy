@@ -516,6 +516,7 @@ function wpbootstrap_scripts_with_jquery()
 	// For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'custom-script' );
     wp_enqueue_style('kadence_bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array());
+   wp_enqueue_style('add_social_css', get_template_directory_uri() . '/css-social-buttons/social-buttons.css', array());
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 
