@@ -518,3 +518,6 @@ function wpbootstrap_scripts_with_jquery()
     wp_enqueue_style('kadence_bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array());
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
+
+/* remove admin bar options for users */
+define('BP_DISABLE_ADMIN_BAR', true);
