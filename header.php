@@ -48,7 +48,7 @@
             wp_nav_menu( array(
                 'menu'              => 'primary',
                 'theme_location'    => 'primary',
-                'depth'             => 2,
+                'depth'             => 3,
                 'container'         => 'div',
                 'container_class'   => 'collapse navbar-collapse',
               'container_id'      => 'bs-example-navbar-collapse-1',
@@ -106,14 +106,13 @@
     </div>
 
         <?php
-            wp_nav_menu( array(
+                      wp_nav_menu( array(
                 'menu'              => 'secondary',
                 'theme_location'    => 'secondary',
-                'depth'             => 2,
-                'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
-        'container_id'      => 'bs-example-navbar-collapse-2',
-                'menu_class'        => 'nav navbar-nav',
+                'depth'             => 10,
+                'container'         => '',
+                'container_class'   => '',
+                'menu_class'        => 'nav navbar-nav no-float',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
             );
