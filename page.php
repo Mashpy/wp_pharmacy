@@ -15,14 +15,14 @@ get_header(); ?>
 
 <div style="margin-bottom: 60px" class="row marketing">
 	
-<div class="col-lg-4">
-	<div class="widget well advanced-sidebar-menu">
-
+<div class="col-lg-3">
+  
 <?php get_sidebar( 'content' ); ?>
 
 </div>
 </div>
-<div class="col-lg-8">
+<div class="col-lg-9">
+  <div class="widget well advanced-sidebar-menu">
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
@@ -32,6 +32,7 @@ get_header(); ?>
 					
 				endwhile;
 			?>
+  </div>
 </div>
 </div>
 

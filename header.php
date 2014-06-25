@@ -66,7 +66,7 @@
   <div id="main">
     <div>
       <div class="pull-right">
-    <a class="sb large circle facebook" style="margin-left:5px" target="_blank" href="#">Facebook</a>
+    <a class="sb large circle facebook" style="margin-left:5px" target="_blank" href="http://www.facebook.com/nstupharma">Facebook</a>
 <a class="sb large circle twitter" target="_blank" href="#">Twitter</a>
 <a class="sb large circle linkedin" target="_blank" href="#">LinkedIn</a>
 <a class="sb large circle vimeo" target="_blank" href="#">RSS</a>
