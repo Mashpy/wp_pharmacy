@@ -532,3 +532,8 @@ function new_excerpt_more( $more ) {
 	return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+function remove_xprofile_links() {
+    remove_filter( 'bp_get_the_profile_field_value', 'xprofile_filter_link_profile_data', 9, 2 );
+}
+add_action( 'bp_init', 'remove_xprofile_links' );
