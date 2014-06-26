@@ -17,7 +17,7 @@
   <div id="main">
     <div>
       <div class="pull-right">
-   						<a href="#" >Important Links</a> | <a href="#" > FAQ</a> |<a href="#" >Feedback</a>
+   						<a href="#" >Important Links</a> | <a href="#" > FAQ</a> |<a href="/contact-us/" > Feedback</a>
 </br>
 							Last modified on <!-- #BeginDate format:Sw1 -->
 							30 May, 2014<!-- #EndDate -->

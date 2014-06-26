@@ -73,9 +73,9 @@
 <a class="sb large circle rss" target="_blank" href="#">RSS</a>
       </div>
     </div>
-    <div style="padding-left: 16px; margin-top:-12px">
-  <div style="font-size:20px"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
-<div style="margin-bottom: 10px">
+    <div style="padding-left: 16px; margin-top:3px;margin-bottom:13px">
+  <div style="font-size:23px"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
+<div style="margin-bottom: 10px; font-size:18px">
 	<?php
 		$description = get_bloginfo( 'description', 'display' );
 		if ( ! empty ( $description ) ) :
