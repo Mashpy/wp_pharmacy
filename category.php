@@ -15,11 +15,14 @@ get_header(); ?>
 
 <div style="margin-bottom: 60px" class="row marketing">
 <div class="col-lg-3">
-
+  <div class="well clearfix" style="font-size:20px">
+   <h4> <a href="/category/blog/">NSTU Pharma Blog</a></h4>
+  <p style="font-size:14px; text-align:justify">  Welcome to our nstupharma blog . Here you can share your knowledge, experience and ideas. </p>
+  </div>
 </div>
 <div class="col-lg-9">
 			<?php if ( have_posts() ) : ?>
-<?php echo "Welcome to our pharmacy blog" ; ?>
+
 
 			<?php
 					// Start the Loop.
@@ -46,6 +49,5 @@ get_header(); ?>
 </div>
 
 <?php
-get_sidebar( 'content' );
-get_sidebar();
+
 get_footer();

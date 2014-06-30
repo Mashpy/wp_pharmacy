@@ -42,7 +42,7 @@ display: block;
 .dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
 .dropdown-submenu:active>a:after{border-left-color:#ffffff;}
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
-.read-more{float:right; padding-top:8px}
+.read-more{float:right; padding-top:16px}
 .profile-fields .label {
     text-align: left;
     z-index: 999999;
@@ -53,3 +53,4 @@ display: block;
 
 .ab-icon{display:none}
 .entry-content{text-align:justify}
+.entry-title{font-size:30px}
