@@ -49,5 +49,7 @@ display: block;
     display: table-cell;
     color: #333333;
 }
+#main{background-color:#e7e7f4; margin-top:-19px;padding-top:19px;padding-bottom:1px;padding-right:5px}
 
 .ab-icon{display:none}
+.entry-content{text-align:justify}

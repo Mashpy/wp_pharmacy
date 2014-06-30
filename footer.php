@@ -14,7 +14,6 @@
 
 				
 
-  <div id="main">
     <div>
       <div class="pull-right">
    						<a href="#" >Important Links</a> | <a href="#" > FAQ</a> |<a href="/contact-us/" > Feedback</a>
@@ -24,7 +23,7 @@
 							by Department of Pharmacy
 
 	<?php wp_footer();?>
-      </div>
+
     </div>
     <div>
   <div>			<a href="#" > Terms of Use</a> | <a href="#" > Privacy</a>
